@@ -1,0 +1,74 @@
+.container {
+    position: relative;
+    background-color: black;
+    width: 800px;
+    height: 500px;
+}
+
+.num {
+    font-size: 100px;
+    opacity: 0;
+    animation-name: countdown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 380px;
+}
+
+#num-10 {
+    animation-delay: 0s;
+}
+
+#num-9 {
+    animation-delay: 2s;
+}
+
+#num-8 {
+    animation-delay: 4s;
+}
+
+#num-7 {
+    animation-delay: 6s;
+}
+
+#num-6 {
+    animation-delay: 8s;
+}
+
+#num-5 {
+    animation-delay: 10s;
+}
+
+#num-4 {
+    animation-delay: 12s;
+}
+
+#num-3 {
+    animation-delay: 14s;
+}
+
+#num-2 {
+    animation-delay: 16s;
+}
+
+#num-1 {
+    animation-delay: 18s;
+}
+
+#napis {
+    animation-delay: 20s;
+    left: 200px;
+    animation-duration: 7s;
+}
+
+
+@keyframes countdown {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
